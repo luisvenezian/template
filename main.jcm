@@ -15,6 +15,10 @@ mas main {
       focus: w.c1 
     }
 
+    agent luis: sample_agent_raining.asl {
+      focus: w.c1 
+    }
+
     workspace w {
       artifact c1: example.Counter(3) 
     }
