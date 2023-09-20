@@ -19,6 +19,22 @@ mas main {
       focus: w.c1 
     }
 
+    agent x: sample_agent_variable.asl {
+      focus: w.c1 
+    }
+
+    agent clima_tempo: sample_agent_conditional.asl {
+      focus: w.c1 
+    }
+
+    agent clima_tempo_detalhado: sample_agent_conditional_2.asl {
+      focus: w.c1 
+    }
+
+    agent a007: a007.asl{
+      focus: w.c1
+    }
+
     workspace w {
       artifact c1: example.Counter(3) 
     }

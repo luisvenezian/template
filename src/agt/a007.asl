@@ -9,6 +9,4 @@
 !start.
 
 /* Plans */
-+!start : true <- .print("hello world, Bob!").
-
-+hi[source(A)] <- .println("O agente ", A, " disse oi!").
++!start : true <- .send(bob, tell, hi).
