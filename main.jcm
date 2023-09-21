@@ -35,6 +35,10 @@ mas main {
       focus: w.c1
     }
 
+    agent astronomer: astronomer.asl{
+      focus: w.c1
+    }
+
     workspace w {
       artifact c1: example.Counter(3) 
     }

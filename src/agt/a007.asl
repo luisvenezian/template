@@ -9,4 +9,6 @@
 !start.
 
 /* Plans */
-+!start : true <- .send(bob, tell, hi).
++!start : true <- .send(bob, tell, hi);
+                  .wait(1000);
+                  .send(clima_tempo_detalhado, achieve, checkTemperature).  
