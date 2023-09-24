@@ -11,31 +11,7 @@
 
 mas main {
 
-    agent bob: sample_agent.asl {
-      focus: w.c1 
-    }
-
-    agent luis: sample_agent_raining.asl {
-      focus: w.c1 
-    }
-
-    agent x: sample_agent_variable.asl {
-      focus: w.c1 
-    }
-
-    agent clima_tempo: sample_agent_conditional.asl {
-      focus: w.c1 
-    }
-
-    agent clima_tempo_detalhado: sample_agent_conditional_2.asl {
-      focus: w.c1 
-    }
-
-    agent a007: a007.asl{
-      focus: w.c1
-    }
-
-    agent astronomer: astronomer.asl{
+    agent robot: robot.asl{
       focus: w.c1
     }
 

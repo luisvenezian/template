@@ -16,13 +16,5 @@ public class Counter extends Artifact {
 		signal("tick");
 	}
 
-	@OPERATION
-	void inc_get(int inc, OpFeedbackParam<Integer> newValueArg) {
-		ObsProperty prop = getObsProperty("count");
-		int newValue = prop.intValue()+inc;
-		prop.updateValue(newValue);
-		newValueArg.set(newValue);
-	}
-
 }
 
